@@ -1,0 +1,16 @@
+# Entorno virtual — nunca se sube
+venv/
+
+# Base de datos vectorial — se regenera con ingest.py
+chroma_db/
+
+# Variables de entorno — pueden contener datos sensibles
+.env
+
+# Archivos del sistema Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
